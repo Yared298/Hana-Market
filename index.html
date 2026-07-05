@@ -94,6 +94,7 @@
   }
   .menu-toggle svg{ width:18px; height:18px; color:var(--ink); }
   @media (max-width:640px){ .menu-toggle{ display:flex; } .nav-actions .btn{ display:none; } }
+  @media (max-width:420px){ .nav-actions .phone-link{ display:none; } }
   .mobile-panel{ display:none; flex-direction:column; border-top:1px solid var(--line); background:var(--cream); }
   .mobile-panel.open{ display:flex; }
   .mobile-panel a{ padding:16px 32px; font-size:15px; font-weight:600; border-bottom:1px solid var(--line); }
@@ -302,6 +303,7 @@
       <a href="#reviews">Reviews</a>
     </div>
     <div class="nav-actions">
+      <a class="phone-link" href="tel:+12029398854" style="font-weight:600; font-size:14.5px; color:var(--ink); opacity:0.8;">(202) 939-8854</a>
       <a class="btn btn-sage" href="https://maps.google.com/maps?q=2000+17th+St+NW+Washington+DC+20009" target="_blank" rel="noopener">Get Directions</a>
       <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -318,6 +320,7 @@
     <a href="#visit">Visit</a>
     <a href="#reviews">Reviews</a>
     <a href="https://maps.google.com/maps?q=2000+17th+St+NW+Washington+DC+20009" target="_blank" rel="noopener">Get Directions</a>
+    <a href="tel:+12029398854">Call (202) 939-8854</a>
   </div>
 </header>
 <script>
@@ -469,6 +472,10 @@
             <div class="k">Address</div>
             <div class="v"><a href="https://maps.google.com/maps?q=2000+17th+St+NW+Washington+DC+20009" target="_blank" rel="noopener">2000 17th St NW<br>Washington, DC 20009</a></div>
           </div>
+          <div class="addr-block">
+            <div class="k">Phone</div>
+            <div class="v"><a href="tel:+12029398854">(202) 939-8854</a></div>
+          </div>
         </div>
         <div class="visit-card">
           <h3>Weekly Hours</h3>
@@ -532,9 +539,10 @@
     <div class="wrap">
       <div class="eyebrow" style="justify-content:center; color:var(--sage-dark);">COME SAY HI</div>
       <h2 style="margin-top:10px;">See you on 17th Street.</h2>
-      <p>Open every day, 11 AM to 8 PM. </p>
+      <p>Open every day, 11 AM to 8 PM. The onigiri go fast, so don't wait too long in the day.</p>
       <div class="cta-actions">
         <a class="btn btn-sage" href="https://maps.google.com/maps?q=2000+17th+St+NW+Washington+DC+20009" target="_blank" rel="noopener">Get Directions</a>
+        <a class="btn btn-outline" href="tel:+12029398854">Call (202) 939-8854</a>
       </div>
     </div>
   </section>
@@ -545,6 +553,7 @@
   <div class="wrap foot-row">
     <span>© 2026 Hana Market. All rights reserved.</span>
     <span>
+      <a href="tel:+12029398854">(202) 939-8854</a> ·
       <a href="https://maps.google.com/maps?q=2000+17th+St+NW+Washington+DC+20009" target="_blank" rel="noopener">2000 17th St NW, Washington, DC 20009</a>
     </span>
   </div>
